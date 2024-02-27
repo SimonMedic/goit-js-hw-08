@@ -37,7 +37,7 @@ form.addEventListener('submit', event => {
   ['email', 'message'].forEach(field => {
     if (formState[field].trim().length === 0) {
       formErrors.push(
-        `Please fill in the '${
+        `Please fill the '${
           field.charAt(0).toUpperCase() + field.slice(1)
         }' field!`
       );
